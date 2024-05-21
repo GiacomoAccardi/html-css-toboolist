@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-
+    /*HEADER SECTION*/
 
     header{
         background-color: white;
@@ -19,9 +19,48 @@
         margin-left: 30px;
     }
     
-
-
+    /*MAIN SECTION*/
 
     body{
         background-color: rgb(223, 235, 255);
+    }
+
+    main{
+        margin: 35px;
+    }
+
+
+    .container{
+        width: 1000px;
+        margin: auto;
+    }
+
+    .buttonbar-config{
+        height: 60px;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        line-height: 3.7;
+    }
+    
+
+    .button{
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .button-container{
+        margin-left: 60px;
+    }
+
+    .button-on{
+        color: white;
+        background-color: rgb(0, 191, 255);
+        border: 1px solid rgb(0, 191, 255);
+    }
+
+    .button-off{
+        color: grey;
+        background-color: none;
+        border: 1px solid grey;
     }
